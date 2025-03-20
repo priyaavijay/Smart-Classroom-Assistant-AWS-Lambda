@@ -1,5 +1,7 @@
 # Smart-Classroom-Assistant-AWS-Lambda
-Our cloud app will implement a smart classroom assistant for educators. This assistant takes videos from the user’s classroom, performs face recognition on the collected videos, looks up the recognized students in the database, and returns the relevant academic information of each student back to the user.
+Our cloud app will implement a smart classroom assistant for educators. This assistant takes videos from the user’s classroom, performs face recognition on the collected videos using AWS Lambda, looks up the recognized students in the Dynamo DB database, and returns the relevant academic information of each student back to the user and also stores it in AWS S3.
+
+![Alt text](https://github.com/priyaavijay/Smart-Classroom-Assistant-AWS-Lambda/blob/main/Smart%20Classroom%20Architecture.png)
 
 Steps to setup:
 Created input and output S3 buckets.
